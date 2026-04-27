@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --amarelo: #fcd40e;
+    --bege: #fbbf7a;
+    --verde-escuro: #165551;
+    --verde-azulado: #64948c;
+    --cinza: #c3beb5;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* NAVBAR */
+.nav-top{
+    background-color: var(--verde-azulado);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.nav-link{
+    color: var(--bege) !important;
+    background-color: var(--verde-escuro) !important;
+    border-radius: 0.5em !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    transform: scale(1.05);
+}
+
+.btn-buscar{
+    color: var(--bege) !important;
+    background-color: var(--verde-escuro) !important;
+    transition: 0.3s;
+}
+
+.btn-buscar:hover{
+    transform: scale(1.05);
+}
+
+/* DIVISÃO */
+.divisao{
+    background: linear-gradient(45deg, var(--verde-azulado), var(--verde-escuro));
+    text-align: center;
+    color: var(--bege);
+    padding: 2em;
+    margin-bottom: 2%;
+}
+
+/* CAROUSEL */
+.car-img{
+    max-height: 500px;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+.carousel-caption{
+    background-color: rgba(22,85,81,0.85);
+    color: var(--bege);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+/* PACOTES */
+.sec-pacotes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+
+.card{
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.card:hover{
+    transform: translateY(-10px) scale(1.02);
+}
+
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card .btn{
+    background-color: var(--verde-escuro);
+    border: none;
+}
+
+.card .btn:hover{
+    background-color: var(--verde-azulado);
+}
+
+/* CONTATO */
+.sec-contato{
+    margin: 5% 10%;
+}
+
+form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.img-icon img{
+    transition: 0.3s;
+}
+
+.img-icon img:hover{
+    transform: scale(1.2);
+}
+
+/* FOOTER */
+footer{
+    background-color: var(--verde-escuro);
+    color: var(--amarelo);
+    text-align: center;
+    padding: 1em;
+}
