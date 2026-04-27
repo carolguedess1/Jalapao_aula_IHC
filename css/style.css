@@ -28,7 +28,10 @@ body{
     background-color: var(--verde-escuro) !important;
     border-radius: 0.5em !important;
     transition: 0.3s;
+<<<<<<< HEAD
     margin: 0.3em;
+=======
+>>>>>>> 6ea6f48a1472021a65c42247b9c784bf336b898f
 }
 
 .nav-link:hover{
@@ -56,7 +59,11 @@ body{
 
 /* CAROUSEL */
 .car-img{
+<<<<<<< HEAD
     max-height: 700px;
+=======
+    max-height: 500px;
+>>>>>>> 6ea6f48a1472021a65c42247b9c784bf336b898f
     object-fit: cover;
     filter: brightness(0.8);
 }
@@ -109,9 +116,14 @@ body{
     background-color: var(--verde-azulado);
 }
 
+<<<<<<< HEAD
 
 /* CONTATO */
 /* .sec-contato{
+=======
+/* CONTATO */
+.sec-contato{
+>>>>>>> 6ea6f48a1472021a65c42247b9c784bf336b898f
     margin: 5% 10%;
 }
 
@@ -128,12 +140,20 @@ form{
 
 .img-icon img:hover{
     transform: scale(1.2);
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> 6ea6f48a1472021a65c42247b9c784bf336b898f
 
 /* FOOTER */
 footer{
     background-color: var(--verde-escuro);
     color: var(--amarelo);
     text-align: center;
+<<<<<<< HEAD
     padding: 0.5em;
+=======
+    padding: 1em;
+>>>>>>> 6ea6f48a1472021a65c42247b9c784bf336b898f
 }
